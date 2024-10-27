@@ -14,8 +14,8 @@
 
 :root
 {
-    --bg-color: #387478;
-    --second-bg-color: #387478 ;
+    --bg-color: #154d64;
+    --second-bg-color: #12374d;
     --text-color: #F5EDED;
     --main-color: #E2DAD6;
 }
@@ -28,13 +28,14 @@ html
 
 body
 {
-   background-color: #387478;
+   background-color: #0476a8;
 }
+
 
 section
 {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 10em 9% 2em;
 }
 
 /* Header Section Code*/
@@ -58,7 +59,7 @@ header
     font-size: 3rem;
     font-weight: 800;
     cursor: pointer;
-    background: -webkit-linear-gradient(#629584, #E2F1E7);
+    background: -webkit-linear-gradient(#154d64, #E2F1E7);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -73,7 +74,7 @@ header
     font-size: 1.8rem;
     font-weight: 500;
     color: var(--text-color);
-    margin-left: 4rem;
+    margin-left: 4em;
     transition: all 0.3s ease;
     border-bottom: 3px solid transparent;
 }
@@ -120,7 +121,7 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2b595c;
+    background-color: #04445f;
 }
 
 .home-content
@@ -131,7 +132,7 @@ header
 
 .home-content h3:nth-of-type(2)
 {
-    margin-bottom: 2rem;
+    margin-bottom: 3.2rem;
 }
 
 span
@@ -144,7 +145,7 @@ span
     font-size: 5.8rem;
     font-weight: 700;
     line-height: 1.3;
-    background: -webkit-linear-gradient(#629584, #E2F1E7);
+    background: -webkit-linear-gradient(#0476a8, #E2F1E7);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -174,7 +175,9 @@ span
 
 .home-content p
 {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #E2DAD6;
 }
 
 .social-media a
@@ -190,7 +193,7 @@ span
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-   transition: 0.3s ease;
+    transition: 0.3s ease;
 
 }
 
@@ -210,7 +213,7 @@ span
     border-radius: 4rem;
     box-shadow: none;
     font-size: 1.6rem;
-    color: var(--bg-color);
+    color: var(--second-bg-color);
     letter-spacing: 0.1rem;
     font-weight: 600;
     transition: 0.3s ease;
@@ -261,9 +264,10 @@ span
     font-size: 2.6rem;
 }
 
-.about-content p 
+.about-content h1
 {
     font-size: 1.6rem;
+    line-height: 2rem;
     margin: 2rem 0 3rem;
 }
 
@@ -282,7 +286,7 @@ span
 /* Portfolio Section Code */
 .portfolio
 {
-    background: #2b595c;
+    background: #04445f;
 }
 
 .portfolio-content
@@ -337,7 +341,7 @@ span
     font-size: 27px;
     border-radius: 50%;
     color: var(--text-color);
-    background: #629584;
+    background: #04445f;
 }
 
 .row h4
@@ -416,7 +420,7 @@ span
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background: #203e41;
+    background: #04445f;
 }
 
 .footer .social

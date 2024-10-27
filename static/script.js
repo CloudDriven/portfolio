@@ -14,9 +14,10 @@ window.onscroll = () => {
 /* Typing text code */
 
 var typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Graphic Designer', 'Video editor'],
+    strings: ['Frontend Development', 'Graphic Design', 'Multimedia', 'Backend Development (soon)'],
     typeSpeed: 80,
     backspeed: 80,
     backdelay: 1200,
     loop: true,
   });
+
